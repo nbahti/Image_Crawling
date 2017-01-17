@@ -32,7 +32,7 @@ def downloadImage(imageLinks, image_folder):
 		count = count +1
 		print count
 		if(img.startswith('http://') | img.startswith('https://')):
-			urlretrieve(img, '/Users/expether/Documents/Fish_Image_Crawlling/Scrapy_Project/fishScrapy_beautifulSoap/Fish_Pictures/'+image_folder+'/'+img.split("/")[-1])
+			urlretrieve(img, '~/Fish_Pictures/'+image_folder+'/'+img.split("/")[-1])
 
 folder_name_order = int(raw_input('Enter folder NO: '))
 
