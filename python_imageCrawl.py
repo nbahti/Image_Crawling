@@ -16,8 +16,6 @@ query= query.split()
 query='+'.join(query)
 url="https://www.google.co.in/search?q="+query+"&source=lnms&tbm=isch"
 
-#fish_name = raw_input('Enter fish name (e.g. Platax etc.): ')
-#url = "http://www.fishbase.org/photos/thumbnailssummary.php?Genus="+fish_name+"&Species=orbicularis"
 print url
 #add the directory for your image here
 DIR="Fish_Pictures"
