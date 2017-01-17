@@ -37,9 +37,9 @@ def downloadImage(imageLinks, image_folder):
 		count = count +1
 		print count
 		if(img.startswith('http://')):
-			urlretrieve(img, '/Users/expether/Documents/Fish_Image_Crawlling/Scrapy_Project/fishScrapy_beautifulSoap/Fish_Pictures/'+image_folder+'/'+img.split("/")[-1])
+			urlretrieve(img, '~/Fish_Pictures/'+image_folder+'/'+img.split("/")[-1])
 		else:
-			urlretrieve('http://www.fishbase.org/photos/'+img, '/Users/expether/Documents/Fish_Image_Crawlling/Scrapy_Project/fishScrapy_beautifulSoap/Fish_Pictures/'+image_folder+'/'+img.split("/")[-1])
+			urlretrieve('http://www.fishbase.org/photos/'+img, '~/Fish_Pictures/'+image_folder+'/'+img.split("/")[-1])
 
 
 for fish_name in fish_names:
